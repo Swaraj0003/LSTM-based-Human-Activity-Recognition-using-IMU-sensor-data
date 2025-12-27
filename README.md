@@ -51,7 +51,7 @@ python src/train.py
 
 streamlit run app.py
 
-```bash
+
 
 
  Dataset
