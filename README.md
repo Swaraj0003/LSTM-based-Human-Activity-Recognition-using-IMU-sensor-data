@@ -20,15 +20,24 @@ A real-time Human Activity Recognition (HAR) system using IMU sensor data
 
 ## 📂 Project Structure
 
-HAR_Streamlit_App/
+#HAR_Streamlit_App/
+
 ├── src/
+
 │ ├── data_loader.py
+
 │ ├── preprocessing.py
+
 │ ├── model_builder.py
+
 │ ├── train.py
+
 │ └── predict.py
+
 ├── app.py
+
 ├── requirements.txt
+
 ├── README.md
 
 
@@ -41,6 +50,8 @@ pip install -r requirements.txt
 python src/train.py
 
 streamlit run app.py
+
+```bash
 
 
  Dataset
