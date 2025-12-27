@@ -3,6 +3,12 @@
 A real-time Human Activity Recognition (HAR) system using IMU sensor data
 (accelerometer & gyroscope) and an LSTM deep learning model, deployed with Streamlit.
 
+Human Activity Recognition (HAR) is an important problem in healthcare, fitness tracking, and wearable computing. This project presents an LSTM-based HAR system that utilizes IMU sensor data (accelerometer and gyroscope) to recognize human activities from time-series signals.
+
+The system preprocesses raw sensor data, segments it into fixed-length temporal windows, and feeds it into a deep LSTM network to capture sequential motion patterns. The trained model is deployed using a Streamlit web application, enabling users to upload sensor data or simulate real-time input for activity prediction.
+
+This project demonstrates end-to-end machine learning workflow, including data preprocessing, time-series modeling, deep learning, and deployment, making it suitable for healthcare monitoring and fitness applications.
+
 ## 🚀 Features
 - LSTM-based activity classification
 - IMU sensor fusion (ax, ay, az, gx, gy, gz)
